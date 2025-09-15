@@ -1,11 +1,6 @@
 Cadastro de Usuários
 
-
-
-
-
-
-
+![Imagem de Capa](src/assets/user-picture.png)
 
 💻 Sobre o projeto
 

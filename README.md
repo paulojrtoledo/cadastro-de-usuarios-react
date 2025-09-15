@@ -1,12 +1,84 @@
-# React + Vite
+Cadastro de Usuários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Imagem de Capa](src/assets/user-picture.png)
 
-Currently, two official plugins are available:
+💻 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é um sistema simples de cadastro de usuários desenvolvido em React (com Vite), utilizando hooks personalizados para gerenciamento de estado.
 
-## Expanding the ESLint configuration
+O aplicativo permite:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cadastrar novos usuários (nome, idade e e-mail)
+
+Listar todos os usuários cadastrados
+
+Deletar usuários individualmente
+
+O estado é centralizado no hook useUsers, garantindo separação de responsabilidades e mantendo os componentes filhos (UserForm e UserList) limpos e reutilizáveis.
+
+🛠 Funcionalidades
+
+CRUD de usuários: Create, Read e Delete
+
+Validação de formulário: alerta se algum campo não for preenchido
+
+Gerenciamento de estado com hooks personalizados
+
+Interface simples e responsiva
+
+Ícones SVG para ações (ex: botão de deletar)
+
+📂 Estrutura do projeto
+src/
+├─ assets/
+│  └─ trash.svg
+├─ components/
+│  ├─ UserForm/
+│  │  └─ UserForm.jsx
+│  └─ UserList/
+│     └─ UserList.jsx
+├─ hooks/
+│  └─ useUsers.js
+├─ pages/
+│  └─ HomePage/
+│     └─ index.jsx
+├─ services/
+│  └─ userService.js
+└─ style.css
+
+⚙ Tecnologias utilizadas
+
+React – Biblioteca principal para construção de interfaces
+
+Hooks do React – useState, useEffect e hook personalizado useUsers
+
+JavaScript (ES6+) – Lógica e manipulação de dados
+
+CSS – Estilização da aplicação
+
+SVG – Ícones utilizados na interface
+
+🚀 Como executar o projeto
+
+Clone o repositório:
+
+git clone https://github.com/paulojrtoledo/cadastro-de-usuarios-react.git
+
+
+Instale as dependências:
+
+npm install
+
+
+Execute o projeto:
+
+npm start 
+npm run dev (com Vite)
+
+
+Abra no navegador:
+http://localhost:3000
+
+📝 Licença
+
+Este projeto está licenciado sob a licença MIT.

@@ -4,7 +4,7 @@ Cadastro de Usuários
 
 💻 Sobre o projeto
 
-Este projeto é um sistema simples de cadastro de usuários desenvolvido em React, utilizando hooks personalizados para gerenciamento de estado.
+Este projeto é um sistema simples de cadastro de usuários desenvolvido em React (com Vite), utilizando hooks personalizados para gerenciamento de estado.
 
 O aplicativo permite:
 
@@ -72,7 +72,8 @@ npm install
 
 Execute o projeto:
 
-npm start
+npm start 
+npm run dev (com Vite)
 
 
 Abra no navegador:

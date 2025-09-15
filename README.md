@@ -28,6 +28,10 @@ Interface simples e responsiva
 
 Ícones SVG para ações (ex: botão de deletar)
 
+Demonstração do Projeto:
+
+![GIF](src/assets/cadastro-de-usuarios-react-gif.gif)
+
 📂 Estrutura do projeto
 src/
 ├─ assets/
